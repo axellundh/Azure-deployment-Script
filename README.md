@@ -5,6 +5,7 @@ Script to deploy Azure Arm templates. Supports linked templates and simple switc
 The script will deploy ARM templates to Azure by first upload all template and parameter files to storageaccount.
 The templates are made available securly by securing templates with SAStoken.
 The code inclucdes a compleate example of how templates are linked together.
+See azuredeploy2.json for how to link templates to main template. The URI is the full URL of the template file uploaded to Azure by the script combined with the SAS access token.
 
 Set all variables for deployed resoruces in template files. The main template is only for linking resources together consider deploying all resoruces as linked templates in order to maintain support for simple switch of deployment environment.
 
