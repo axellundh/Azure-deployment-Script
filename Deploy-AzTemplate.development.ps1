@@ -10,8 +10,8 @@
 
 # 5. Run the script by navigating to folder containging script in PowerShell and run ./Deploy-Aztemplate.development
 
-$resourceGroupName = "axelresourcegroup"  
-$storageAccName = "staging39230xx"  
+$resourceGroupName = "resourcegroupname"  
+$storageAccName = "stagingstorageName" 
 $location = "northeurope"
 $storageContainerName = "templates"
 $maintemplate = "azuredeploy2.json"
