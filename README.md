@@ -12,6 +12,7 @@ Set all variables for deployed resoruces in template files. The main template is
 The script supports simple setup in order to support multiple environment. a suffix for parameter files is provided and decides which parameter file are used for the templates.
 
 The convention for templates filenames are TEMPLATENAME.json
+
 The convention for parameters filenames are TEMPLATENAME.PARAMETERS.ENVIRONMENTSUFFIX.json
 
 # Prerequsites
