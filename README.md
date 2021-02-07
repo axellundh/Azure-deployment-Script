@@ -19,7 +19,7 @@ The convention for parameters filenames are TEMPLATENAME.PARAMETERS.ENVIRONMENTS
 # Prerequsites
 
 1. Ensure Azure PowerShell is installed (https://docs.microsoft.com/en-us/powershell/azure/install-az-ps)
-2. Enusre resourcegroup is created in Azure subscription
+2. Ensure resourcegroup is created in Azure subscription
 3. Set variables in scripts, Storage Account and continer will be created if they do not allready exists.
 
 # How to run
