@@ -8,7 +8,7 @@
 # 3. Run Connect-AzAccount in powershell in order to connect to Azure. Use an account with access to tenant you want to deploy to.
 # 4. If needed select tenant and subscription to deploy to (May be needed if selected account has access to multiple tenants/subscriptions)
 
-# 5. Run the script by navigating to folder containging script in PowerShell and run ./Deploy-Aztemplate.development
+# 5. Run the script by navigating to folder containging script in PowerShell and run ./Deploy-Aztemplate
 
 $resourceGroupName = "resourcegroupname"  
 $storageAccName = "stagingstorageName"
